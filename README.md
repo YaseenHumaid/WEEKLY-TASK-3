@@ -1,0 +1,1 @@
+Advanced JavaScript build week focused on modern ES6+ syntax, execution context, closures, functional programming, and asynchronous JavaScript. Includes terminal-based daily tasks, Node.js practice, API handling with Fetch, and a micro project (Weather App) demonstrating async/await, error handling, and real-world data integration—preparing for React development.
