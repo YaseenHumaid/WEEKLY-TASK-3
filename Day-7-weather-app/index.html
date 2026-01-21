@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌤 Weather App</h1>
+
+    <div class="search">
+      <input type="text" id="city-input" placeholder="Search city..." />
+      <button onclick="searchCity()">Search</button>
+    </div>
+
+    <button id="theme-btn" onclick="toggleTheme()">🌙</button>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2 id="city-name">Delhi</h2>
+      <p id="time">Loading...</p>
+
+      <h1 id="temp">--°C</h1>
+      <p id="desc">Fetching weather...</p>
+
+      <div class="info">
+        <span>💨 <span id="wind">--</span> km/h</span>
+        <span>🌡 Day <span id="day">--</span>°</span>
+        <span>🌙 Night <span id="night">--</span>°</span>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
